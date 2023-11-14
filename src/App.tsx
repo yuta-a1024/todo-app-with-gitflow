@@ -2,9 +2,9 @@ import './App.css'
 import Todo from './components/Todo';
 
 function App() {
-
+  
   const [title, setTitle] = useState<string>("");
-  const API_URL = "";
+  const API_URL = "http://localhost:8000";
 
   const addTodo = async (e: React.FormEvent) => {
     e.preventDefault();
