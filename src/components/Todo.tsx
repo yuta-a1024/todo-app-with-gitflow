@@ -2,9 +2,11 @@
 // import { mutate } from "swr";
 // import useSWR from "swr";
 
-// type TodoProps = {
-//   todo: any;
-// };
+import { TodoType } from "../types";
+
+type TodoProps = {
+  todo: TodoType;
+};
 
 const Todo = () => {
   // const API_URL = "";
