@@ -2,12 +2,14 @@
 // import { mutate } from "swr";
 // import useSWR from "swr";
 
-// type TodoProps = {
-//   todo: any;
-// };
+import { TodoType } from "../types";
+
+type TodoProps = {
+  todo: TodoType;
+};
 
 const Todo = () => {
-  // const API_URL = "";
+  const API_URL = "http://localhost:8080";
   // const { data: todos } = useSWR(`${API_URL}/allTodos`); // todosデータを取得
   // const [editing, setEditing] = useState(false);
   // const [editedTitle, setEditedTitle] = useState(todo.title);
